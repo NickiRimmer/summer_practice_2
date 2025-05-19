@@ -1,0 +1,79 @@
+.dialog {
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  font-family: sans-serif;
+  background-color: darkgray;
+}
+
+.message-list {
+  margin-bottom: 20px;
+}
+
+.message {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  clear: both; /* Чтобы избежать обтекания float'ами */
+}
+
+.outgoing-message {
+  background-color: #DCF8C6; /* Зеленый цвет для исходящих сообщений */
+  float: right; /* Выравниваем справа */
+}
+
+.incoming-message {
+  background-color: #fff; /* Белый цвет для входящих сообщений */
+  float: left; /* Выравниваем слева */
+  border: 1px solid #eee; /* Добавим границу для лучшей видимости */
+}
+
+.message-content {
+  word-wrap: break-word; /* Перенос длинных слов */
+}
+
+.message-info {
+  font-size: 0.8em;
+  color: #777;
+  text-align: right; /* Выравниваем информацию справа */
+}
+
+.message-time {
+  margin-right: 5px;
+}
+
+.message-status {
+  /* Стили для статуса сообщения (отправлено/прочитано) */
+}
+
+.message-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+  min-height: 100px;
+  box-sizing: border-box; /* Включаем padding и border в ширину */
+  margin-bottom: 10px;
+}
+
+.message-form button {
+  background-color: #4CAF50; /* Зеленый цвет кнопки */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.no-messages {
+  text-align: center;
+  color: #777;
+}
+
+html {
+    background-color: #6d6e85;
+}
